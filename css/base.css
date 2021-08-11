@@ -1,0 +1,91 @@
+:root {
+    --bebas-neue-font: 'Bebas Neue', cursive;
+    --montserrat-font: 'Montserrat', sans-serif;
+    --alfa-slab-one-font: 'Alfa Slab One', cursive;
+    --text-color: #3d2514;
+    --text-shadow-color: #fee8bc;
+    --sub-title-background-color: #ffc045;
+    --btn-color: #bf2222;
+    --bold-font-weigth: 700;
+    --regular-font-weigth: 400;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.grid {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 78px;
+}
+
+.title__sub {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-family: var(--bebas-neue-font);
+    color: var(--text-color);
+}
+
+.title__main {
+    margin-top: 40px;
+    font-size: 5rem;
+    font-family: var(--alfa-slab-one-font);
+    color: var(--text-color);
+}
+
+.title__main--medium {
+    font-size: 4.167rem;
+}
+
+.margin-top-0px {
+    margin-top: 0;
+}
+
+.title__description {
+    margin-top: 20px;
+    font-family: var(--montserrat-font);
+    font-size: 1.667rem;
+    color: var(--text-color);
+    line-height: 2.917rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: var(--btn-color);
+    font-family: var(--alfa-slab-one-font);
+    font-size: 1.667rem;
+    color: #fff;
+    font-weight: var(--regular-font-weigth);
+    padding: 20px 36px;
+    box-shadow: inset 0 0 0 #ffc045c4;
+    transition: ease-out 0.8s;
+}
+
+.btn:hover {
+    box-shadow: inset 500px 0 0 #ffc045;
+}
+
+.btn.btn--center {
+    display: block;
+    margin: 36px auto 0;
+}
